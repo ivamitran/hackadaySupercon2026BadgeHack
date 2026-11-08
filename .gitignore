@@ -1,0 +1,20 @@
+# Ignore everything by default
+*
+
+# But allow directories to be traversed
+!*/
+
+.pio/
+
+# Whitelist
+!platformio.ini
+!.gitignore
+!src/
+!src/**
+!include/
+!include/**
+!lib/
+!lib/**
+!test/
+!test/**
+!README.md
